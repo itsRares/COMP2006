@@ -1,0 +1,1220 @@
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+Creating Writer 0
++ Writer | > 1
+Writer-0 is leaving the database
+Creating Writer 1
+Creating Reader 0
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 1
+Reader-0 is leaving the database
+Writer-1 is trying to enter into database
+Creating Reader 1
+Creating Reader 2
+Writer-1 is writing into the database
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Creating Reader 3
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Creating Reader 4
+Reader-4 is trying to enter into database
+Reader-4 is waiting until signalled
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 1
+Reader-1 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 1
+Reader-3 is leaving the database
+Reader-4 is reading the database
+- Reader-4 | > 1
+Reader-4 is leaving the database
+Reader-2 is reading the database
+- Reader-2 | > 1
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 2
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 2
+Reader-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Writer-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-4 is trying to enter into database
+Reader-4 is waiting until signalled
+Reader-1 is reading the database
+- Reader-1 | > 2
+Reader-1 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 2
+Reader-2 is reading the database
+- Reader-2 | > 2
+Reader-3 is leaving the database
+Reader-2 is leaving the database
+Reader-4 is reading the database
+- Reader-4 | > 2
+= All data read!
+Reader-4 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 3
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 3
+Reader-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Writer-1 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 3
+Reader-3 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 3
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-4 is trying to enter into database
+Reader-4 is waiting until signalled
+Reader-1 is leaving the database
+Reader-2 is reading the database
+- Reader-2 | > 3
+Reader-2 is leaving the database
+Reader-4 is reading the database
+- Reader-4 | > 3
+= All data read!
+Reader-4 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 4
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 4
+Reader-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 4
+Reader-3 is leaving the database
+Reader-4 is trying to enter into database
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-4 is reading the database
+- Reader-4 | > 4
+Reader-4 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 4
+Reader-1 is leaving the database
+Reader-2 is reading the database
+- Reader-2 | > 4
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 5
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 5
+Reader-0 is leaving the database
+Writer-1 is trying to enter into database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 5
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 5
+Reader-1 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 5
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 5
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is writing into the database
++ Writer | > 6
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 6
+Reader-0 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+- Reader-3 | > 6
+Reader-3 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 6
+Reader-1 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 6
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 6
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 7
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 7
+Reader-0 is leaving the database
+Reader-1 is trying to enter into database
+Reader-4 is trying to enter into database
+Reader-4 is waiting until signalled
+Reader-1 is reading the database
+- Reader-1 | > 7
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-1 is leaving the database
+Reader-4 is reading the database
+Reader-3 is reading the database
+- Reader-3 | > 7
+Reader-3 is leaving the database
+- Reader-4 | > 7
+Reader-4 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is waiting until signalled
+Reader-2 is reading the database
+- Reader-2 | > 7
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is writing into the database
++ Writer | > 8
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 8
+Reader-0 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 8
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 8
+Reader-3 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 8
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 8
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 9
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 9
+Reader-0 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 9
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 9
+Reader-3 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 9
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 9
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 10
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 10
+Reader-0 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 10
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 10
+Reader-3 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 10
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 10
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 11
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 11
+Reader-0 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 11
+Reader-4 is trying to enter into database
+Reader-4 is waiting until signalled
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-4 is reading the database
+- Reader-4 | > 11
+Reader-4 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 11
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 11
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 12
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 12
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-4 is reading the database
+- Reader-4 | > 12
+Reader-4 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 12
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 12
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-2 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 12
+= All data read!
+Reader-1 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 13
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 13
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 13
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-4 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 13
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 13
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 13
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 14
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 14
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-4 is reading the database
+- Reader-4 | > 14
+Reader-4 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 14
+Reader-1 is leaving the database
+Reader-2 is reading the database
+- Reader-2 | > 14
+Reader-2 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 14
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 15
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 15
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-4 is reading the database
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+- Reader-4 | > 15
+Reader-4 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 15
+Reader-2 is reading the database
+- Reader-2 | > 15
+Reader-1 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 15
+= All data read!
+Reader-2 is leaving the database
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 16
+Writer-1 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+Reader-0 is trying to enter into database
+Reader-0 is waiting until signalled
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-0 is reading the database
+- Reader-0 | > 16
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 16
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 16
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-2 is reading the database
+- Reader-2 | > 16
+Reader-2 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 16
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 17
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 17
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 17
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 17
+Reader-2 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 17
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 17
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 18
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 18
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 18
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 18
+Reader-2 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 18
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 18
+= All data read!
+Reader-1 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 19
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 19
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 19
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 19
+Reader-2 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 19
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 19
+= All data read!
+Reader-1 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 20
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 20
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 20
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 20
+Reader-2 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 20
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 20
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 21
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 21
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 21
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-2 is reading the database
+- Reader-2 | > 21
+Reader-2 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 21
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 21
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 22
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 22
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 22
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 22
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 22
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 22
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 23
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 23
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 23
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 23
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 23
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 23
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 24
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 24
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 24
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 24
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 24
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 24
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 25
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 25
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 25
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 25
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 25
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 25
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 26
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 26
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 26
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 26
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 26
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-3 is leaving the database
+Reader-2 is reading the database
+- Reader-2 | > 26
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 27
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 27
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 27
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 27
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 27
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 27
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 28
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 28
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 28
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 28
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 28
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 28
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 29
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 29
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 29
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 29
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 29
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 29
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 30
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 30
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 30
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 30
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 30
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 30
+= All data read!
+Reader-2 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 31
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 31
+Reader-0 is leaving the database
+Writer-0 is trying to enter into database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 31
+Reader-4 is leaving the database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Writer-0 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 31
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 31
+Reader-2 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 31
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 32
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 32
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 32
+Reader-4 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
+= Must wait for all readers to read the data
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Writer-0 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 32
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 32
+Reader-2 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 32
+= All data read!
+Reader-3 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
++ Writer | > 33
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 33
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 33
+Reader-4 is leaving the database
+Writer-0 is trying to enter into database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 33
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-1 is leaving the database
+Writer-0 is waiting until signalled
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-2 is reading the database
+- Reader-2 | > 33
+Reader-2 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 33
+= All data read!
+Reader-3 is leaving the database
+Writer-0 is writing into the database
++ Writer | > 34
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 34
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 34
+Reader-4 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 34
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-2 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 34
+Reader-1 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 34
+= All data read!
+Reader-3 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 35
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 35
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 35
+Reader-4 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 35
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-2 is trying to enter into database
+Reader-2 is waiting until signalled
+Reader-3 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 35
+Reader-1 is leaving the database
+Reader-2 is reading the database
+- Reader-2 | > 35
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 36
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 36
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 36
+Reader-4 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 36
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 36
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 36
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 37
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 37
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 37
+Reader-4 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 37
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 37
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 37
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 38
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 38
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 38
+Reader-4 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 38
+Reader-3 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 38
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 38
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 39
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+= Must wait for all readers to read the data
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 39
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 39
+Reader-4 is leaving the database
+Reader-1 is trying to enter into database
+Reader-1 is reading the database
+- Reader-1 | > 39
+Reader-3 is trying to enter into database
+Reader-3 is waiting until signalled
+Reader-1 is leaving the database
+Reader-3 is reading the database
+- Reader-3 | > 39
+Reader-3 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 39
+= All data read!
+Reader-2 is leaving the database
+Writer-0 is trying to enter into database
+Writer-0 is writing into the database
++ Writer | > 40
+Writer-0 is leaving the database
+Writer-1 is trying to enter into database
+Writer-1 is writing into the database
+Writer-1 is leaving the database
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+- Reader-0 | > 40
+Reader-0 is leaving the database
+Reader-4 is trying to enter into database
+Reader-4 is reading the database
+- Reader-4 | > 40
+Reader-4 is leaving the database
+Reader-3 is trying to enter into database
+Reader-3 is reading the database
+- Reader-3 | > 40
+Reader-1 is trying to enter into database
+Reader-1 is waiting until signalled
+Reader-3 is leaving the database
+Reader-1 is reading the database
+- Reader-1 | > 40
+Reader-1 is leaving the database
+Reader-2 is trying to enter into database
+Reader-2 is reading the database
+- Reader-2 | > 40
+= All data read!
+Reader-2 is leaving the database
+Writer 0 finished
+Writer 1 finished
+Reader-0 is trying to enter into database
+Reader-0 is reading the database
+> No more data left to read!
+Reader-0 is leaving the database
+Reader-4 has finished reading 40 pieces of data from the data_buffer
+Reader-3 has finished reading 40 pieces of data from the data_buffer
+Reader-1 has finished reading 40 pieces of data from the data_buffer
+Reader-2 has finished reading 40 pieces of data from the data_buffer
+Reader-0 has finished reading 40 pieces of data from the data_buffer
+Reader 0 finished
+Reader 1 finished
+Reader 2 finished
+Reader 3 finished
+Reader 4 finished
+
